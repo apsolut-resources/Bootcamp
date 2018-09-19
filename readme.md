@@ -1,5 +1,3 @@
-# Decom Base Theme 2018 Clean
-
 # Starting new projects
 
 1. Create new WP installation
