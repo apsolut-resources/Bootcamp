@@ -25,8 +25,9 @@ console.log( footerPrevElement );
 
 
 console.log(document.getElementById("b1").previousElementSibling); // <img id="b0">
-console.log(document.getElementById("b2").previousElementSibling); // "b1"
+
+console.log(document.getElementById("b2").previousElementSibling.id); // "b1"
 //fix for now: use previousElementSibling...
-console.log(document.getElementById("b2").previousElementSibling); // "b1"
+console.log(document.getElementById("b3").previousElementSibling); // "b1"
 
 
