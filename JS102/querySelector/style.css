@@ -1,0 +1,73 @@
+body {
+  background: #efefef;
+  text-align: center;
+}
+
+h1 {
+  font-size: 200%;
+  font-family: sans-serif;
+}
+.heading,
+.content,
+.footer {
+  background: #fff;
+  border: 1px #ddd solid;
+  padding: 20px;
+  margin: 20px;
+}
+
+.site-menu {
+    float: left;
+}
+.site-menu ul {
+  list-style: none;
+
+}
+.site-menu ul li {
+  float: left;
+  margin-right: 10px;
+}
+
+ul {
+  text-align: left;
+  font-size: 1.4rem;
+}
+
+.active {
+  border: 4px #f19 solid;
+}
+.image {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.box {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+.box1 {
+    display: inline-block;
+    margin: 4px 0;
+    padding: 4px 10px;
+    border: 1px solid #d9d9d9;
+}
+.box2 {
+    display: inline-block;
+    margin: 4px 0;
+    padding: 4px 10px;
+    border: 1px solid #d9d9d9;
+}
+.box3 {
+    display: inline-block;
+    margin: 4px 0;
+    padding: 4px 10px;
+    border: 1px solid #d9d9d9;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
