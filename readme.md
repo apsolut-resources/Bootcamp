@@ -1,20 +1,21 @@
 # Starting new projects
 
-1. Create new WP installation
+1. Clone a REPO `https://github.com/apsolut/Bootcamp.git`
 
-1. To start from the latest version of starter theme but not keep complete starter theme repo history, create new local git repository in root of local WP installation
+1. Create new local git 
 
         $ git init
+        $ git add .
 
 
-1. Add decom starter theme, pull once and remove starter theme as origin (to prevent accidental pushing to starter theme repo)
+1. Add repo, pull once and remove `this repo` as origin (to prevent accidental pushing to `original` repo)
 
         $ git remote add origin https://github.com/apsolut/Bootcamp.git
         $ git pull origin master
         $ git remote remove origin
 
 
-1. Delete starter theme repo history
+1. Delete repo history / remove .git folder 
     
         $ rm -rf .git 
 
