@@ -31,3 +31,4 @@ console.log(document.getElementById("b2").previousElementSibling.id); // "b1"
 console.log(document.getElementById("b3").previousElementSibling); // "b1"
 
 
+
