@@ -20,8 +20,10 @@ console.log( 'after inline script:  ', aHrefAfter );
 //changing values - last A in navigation
 var aSecond = document.querySelectorAll( 'nav a' )[2],
     aSecondColor = window.getComputedStyle( aSecond ).color;
+    aSecondFF = window.getComputedStyle( aSecond ).fontFamily;
     console.log( aSecond );
     console.log( aSecondColor );
+    console.log( aSecondFF );
 
 
 
